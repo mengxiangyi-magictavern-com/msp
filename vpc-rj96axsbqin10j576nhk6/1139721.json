@@ -1,0 +1,11 @@
+{
+  "alertId": 1139721,
+  "alert": "test-rule2",
+  "annotations": {
+    "message": "new message"
+  },
+  "expr": "aws_cloudfront_cache_hit_rate_average < 90",
+  "for": "5m",
+  "level": "info",
+  "Notify": "mtduty-sail-ops"
+}
