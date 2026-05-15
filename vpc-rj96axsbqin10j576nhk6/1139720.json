@@ -2,7 +2,7 @@
   "alertId": 1139720,
   "alert": "test-rule1",
   "annotations": {
-    "message": "new message"
+    "message": "new message1"
   },
   "expr": "aws_cloudfront_cache_hit_rate_average < 90",
   "for": "5m",
