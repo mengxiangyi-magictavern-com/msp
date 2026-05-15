@@ -1,8 +1,8 @@
 {
   "alertId": 1139721,
-  "alert": "test-rule2",
+  "alert": "test-rule2-upgrade",
   "annotations": {
-    "message": "new message"
+    "message": "new message2"
   },
   "expr": "aws_cloudfront_cache_hit_rate_average < 90",
   "for": "5m",
