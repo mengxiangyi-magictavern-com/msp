@@ -1,0 +1,11 @@
+{
+  "alertId": 1141187,
+  "alert": "test-rule1",
+  "annotations": {
+    "message": "Low hit rate in CloudFront {{$labels.dimension_DistributionId}} (Current value: {{$value}}%)"
+  },
+  "expr": "aws_cloudfront_cache_hit_rate_average < 90",
+  "for": "5m",
+  "level": "info",
+  "Notify": "mtduty-sail-ops"
+}
