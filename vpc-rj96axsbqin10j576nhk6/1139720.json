@@ -2,7 +2,7 @@
   "alertId": 1139720,
   "alert": "test-rule1",
   "annotations": {
-    "message": "Low hit rate in CloudFront {{$labels.dimension_DistributionId}} (Current value: {{$value}}%)"
+    "message": "new message"
   },
   "expr": "aws_cloudfront_cache_hit_rate_average < 90",
   "for": "5m",
