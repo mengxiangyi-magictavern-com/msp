@@ -1,11 +1,6 @@
 {
   "alertId": 1139721,
-  "alert": "test-rule2-upgrade",
-  "annotations": {
-    "message": "new message2"
-  },
-  "expr": "aws_cloudfront_cache_hit_rate_average < 90",
-  "for": "5m",
-  "level": "info",
-  "Notify": "mtduty-sail-ops"
+  "ruleName": "test-rule2-upgrade",
+  "deletedAt": "2026-05-15T09:23:43.076Z",
+  "action": "deleted"
 }
