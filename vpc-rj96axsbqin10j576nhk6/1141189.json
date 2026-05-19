@@ -6,6 +6,6 @@
   },
   "expr": "aws_cloudfront_cache_hit_rate_average < 90",
   "for": "0m",
-  "level": "info",
+  "level": "warning",
   "Notify": "mtduty-sail-ops"
 }
