@@ -1,0 +1,11 @@
+{
+  "alertId": 1142208,
+  "alert": "test-rule3",
+  "annotations": {
+    "message": "test msp level"
+  },
+  "expr": "up",
+  "for": "1m",
+  "level": "info",
+  "Notify": "mtduty-city-ops"
+}
