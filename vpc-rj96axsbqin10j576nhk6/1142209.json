@@ -1,0 +1,11 @@
+{
+  "alertId": 1142209,
+  "alert": "test-rule4",
+  "annotations": {
+    "message": "test rule"
+  },
+  "expr": "aws_cloudfront_cache_hit_rate_average < 90",
+  "for": "5m",
+  "level": "warning",
+  "Notify": "mtduty-city-ops"
+}
