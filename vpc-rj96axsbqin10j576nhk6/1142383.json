@@ -4,7 +4,7 @@
   "annotations": {
     "message": "Low hit rate in CloudFront {{$labels.dimension_DistributionId}} (Current value: {{$value}}%)"
   },
-  "expr": "aws_cloudfront_cache_hit_rate_average < 0",
+  "expr": "aws_cloudfront_cache_hit_rate_average < 10",
   "for": "5m",
   "level": "info",
   "Notify": "mtduty-city-ops"
