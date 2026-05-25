@@ -7,5 +7,11 @@
   "expr": "aws_cloudfront_cache_hit_rate_average < 90",
   "for": "6m",
   "level": "info",
+  "labels": {
+    "Type": "Metrics",
+    "Provider": "AWS",
+    "Service": "ALB",
+    "Events": "CPUUsageHigh"
+  },
   "Notify": "mtduty-city-ops"
 }
