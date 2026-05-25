@@ -11,7 +11,10 @@
     "Type": "Metrics",
     "Provider": "AWS",
     "Service": "ALB",
-    "Events": "CPUUsageHigh"
+    "Events": "CPUUsageHigh",
+    "Instance": "{{$labels.dimension_DistributionId}}",
+    "ALB": "{{$labels.dimension_DistributionId}}",
+    "Value": "{{$value}}"
   },
   "Notify": "mtduty-city-ops"
 }
