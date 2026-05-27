@@ -10,7 +10,7 @@
   "labels": {
     "Type": "Metrics",
     "Provider": "AWS",
-    "Service": "ALB",
+    "Category": "ALB",
     "Events": "CPUUsageHigh",
     "Instance": "{{$labels.dimension_DistributionId}}",
     "ALB": "{{$labels.dimension_DistributionId}}",
