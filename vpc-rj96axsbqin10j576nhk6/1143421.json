@@ -1,20 +1,6 @@
 {
   "alertId": 1143421,
-  "alert": "test-rule12",
-  "annotations": {
-    "message": "Low hit rate in CloudFront {{$labels.dimension_DistributionId}} (Current value: {{$value}}%)"
-  },
-  "expr": "aws_cloudfront_cache_hit_rate_average < 90",
-  "for": "6m",
-  "level": "info",
-  "labels": {
-    "Type": "Metrics",
-    "Provider": "AWS",
-    "Category": "ALB",
-    "Events": "CPUUsageHigh",
-    "Instance": "{{$labels.dimension_DistributionId}}",
-    "ALB": "{{$labels.dimension_DistributionId}}",
-    "Value": "{{$value}}"
-  },
-  "Notify": "mtduty-city-ops"
+  "ruleName": "test-rule12",
+  "deletedAt": "2026-05-29T02:22:43.153Z",
+  "action": "deleted"
 }
